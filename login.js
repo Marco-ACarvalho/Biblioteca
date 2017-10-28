@@ -4,3 +4,7 @@ function verificaDados(){
     
     console.log("Login: " + login + "\nSenha: " + senha);
 }
+
+module.exports = function() {
+    verificaDados();
+}
